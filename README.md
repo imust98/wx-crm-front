@@ -1,29 +1,27 @@
 # wx-crm-front
 
-## Project setup
+## 项目开始
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 本地启动
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 编译和构建
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
+### lint 检查
 ```
 npm run lint
 ```
+### commit 规范
+See [commitlint](https://github.com/marionebl/commitlint/tree/master/%40commitlint/config-conventional#type-enum)
 
-### Customize configuration
+
+### 自定义配置
 See [Configuration Reference](https://cli.vuejs.org/config/).
