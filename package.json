@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "beforecommit": "npm run lint"
+    "beforecommit": "commitlint -E HUSKY_GIT_PARAMS && npm run lint"
   },
   "dependencies": {
     "vue": "^2.5.21",
@@ -14,12 +14,13 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^7.3.2",
+    "@commitlint/config-conventional": "^7.3.1",
     "@vue/cli-plugin-babel": "^3.3.0",
     "@vue/cli-plugin-eslint": "^3.3.0",
     "@vue/cli-service": "^3.3.0",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
-    "commitlint": "^7.3.2",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "husky": "^1.3.1",
