@@ -3,8 +3,10 @@
 </template>
 
 <script>
+const aa = 'asfa';
+console.log(aa);
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
     msg: String
   }
