@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev":"npm run start:nei | npm run serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint src",
-    "beforecommit": "commitlint -E HUSKY_GIT_PARAMS && npm run lint"
+    "beforecommit": "commitlint -E HUSKY_GIT_PARAMS && npm run lint",
+    "start:nei":"nei server",
+    "nei:build":"nei build -k 5b1fda449f578753b0cf96bf9d566707",
+    "nei:update":"nei update -w -k 5b1fda449f578753b0cf96bf9d566707"
   },
   "dependencies": {
     "axios": "^0.18.0",
