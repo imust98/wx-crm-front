@@ -9,6 +9,7 @@
     "beforecommit": "commitlint -E HUSKY_GIT_PARAMS && npm run lint"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"

@@ -9,6 +9,9 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  mounted: function() {
+    this.$store.dispatch('getData');
   }
 };
 </script>
