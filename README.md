@@ -11,7 +11,7 @@ npm run nei:build
 
 ### 本地启动
 ```
-npm run serve
+npm run dev
 ```
 
 ### 编译和构建
@@ -56,10 +56,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 <img src="http://nos.netease.com/edu-image/1548294632426-yzs.jpeg">
 
-1、需求确认后，从master创建develop分支
-2、开发人员从develop分支创建自己的feature分支进行开发
-3、master分支发生变更，需要从master分支合并到develop分支、可以考虑定期合并一次
-4、feature分支合并到对应的develop分支之前，需要从develop分支合并到feature分支
-5、feature分支合并到对应的develop分支之后，发布到测试环境进行测试
-6、develop分支在测试环境测试通过之后，合并到release分支并发布到预发布环境进行测试
-7、release分支在预发布环境验证通过后，合并到master分支并发布到生产环境进行验证
+1、需求确认后，从master创建develop分支     
+2、开发人员从develop分支创建自己的feature分支进行开发      
+3、master分支发生变更，需要从master分支合并到develop分支、可以考虑定期合并一次      
+4、feature分支合并到对应的develop分支之前，需要从develop分支合并到feature分支     
+5、feature分支合并到对应的develop分支之后，发布到测试环境进行测试     
+6、develop分支在测试环境测试通过之后，合并到release分支并发布到预发布环境进行测试      
+7、release分支在预发布环境验证通过后，合并到master分支并发布到生产环境进行验证     
