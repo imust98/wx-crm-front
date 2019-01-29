@@ -3,8 +3,10 @@
 ## 项目开始
 ```
 npm install
-如果需要nei来启动mock服务，则需要全局安装nei
+
 npm install nei -g
+
+npm run nei:build
 ```
 
 ### 本地启动
