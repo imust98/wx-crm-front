@@ -3,17 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev":"npm run start:nei | npm run serve",
+    "dev": "npm run start:nei | npm run serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint src",
     "beforecommit": "commitlint -E HUSKY_GIT_PARAMS && npm run lint",
-    "start:nei":"nei server",
-    "nei:build":"nei build -k 5b1fda449f578753b0cf96bf9d566707",
-    "nei:update":"nei update -w -k 5b1fda449f578753b0cf96bf9d566707"
+    "nei:build": "nei build -k 5b1fda449f578753b0cf96bf9d566707",
+    "nei:update": "nei update -w -k 5b1fda449f578753b0cf96bf9d566707",
+    "start:nei": "nei server"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "element-ui": "^2.3.6",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
@@ -31,6 +32,7 @@
     "husky": "^1.3.1",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
+    "vue-cli-plugin-element-ui": "^1.1.4",
     "vue-template-compiler": "^2.5.21"
   }
 }
