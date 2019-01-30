@@ -1,6 +1,4 @@
-import {
-  test
-} from '@/api/test';
+import { test } from '@/api/test';
 
 const demo = {
   state: {},
@@ -10,9 +8,7 @@ const demo = {
     }
   },
   actions: {
-    getData({
-      commit
-    }, data) {
+    getData({ commit }, data) {
       return new Promise(resolve => {
         test(data).then(response => {
           commit('TEST');
