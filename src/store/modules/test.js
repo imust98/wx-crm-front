@@ -1,13 +1,21 @@
-import { test } from '@/api/test';
+import {
+  test
+} from '@/api/test';
 
 const demo = {
   state: {},
-  mutations: {},
+  mutations: {
+    TEST: () => {
+      console.log('xxxx');
+    }
+  },
   actions: {
-    getData({ commit, data }) {
+    getData({
+      commit
+    }, data) {
       return new Promise(resolve => {
         test(data).then(response => {
-          commit('ss');
+          commit('TEST');
           console.log(response.data);
           resolve(response.data);
         });

@@ -19,7 +19,7 @@ module.exports = {
     "no-implicit-coercion": 1,
     "no-lone-blocks": 2,
     "no-loop-func": 2,
-    "no-magic-numbers": 2,
+    "no-magic-numbers": 1,
   },
   parserOptions: {
     parser: "babel-eslint"
