@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <svg-icon icon-class="card" />ss
     <HelloWorld msg="Welcome you"/>
   </div>
 </template>

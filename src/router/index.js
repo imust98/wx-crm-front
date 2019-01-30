@@ -7,7 +7,7 @@ Vue.use(Router);
 
 export const constantRouterMap = [
   {
-    path: '/',
+    path: '',
     name: 'home',
     redirect: '/index',
     component: Layout,
